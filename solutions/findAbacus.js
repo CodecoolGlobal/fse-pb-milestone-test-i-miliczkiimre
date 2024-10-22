@@ -16,8 +16,7 @@ function findAbacus(array) {
         const element = array[i];
         if (element.abacus === true) {
             return i;
-        }
-        
+        };
     }
     return null;
 }

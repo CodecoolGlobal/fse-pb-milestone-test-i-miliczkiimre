@@ -19,8 +19,8 @@ function countConfirmed(users) {
   for (const element of users) {
     if (element.isConfirmed === true) {
       result += 1;
-    }
-  }
+    };
+  };
   return result;
 }
 
